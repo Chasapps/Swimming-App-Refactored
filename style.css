@@ -641,9 +641,11 @@ body.full-map #map {
 }
 
 /* Tighter padding on small screens for arrows */
+}
 @media (max-width: 700px) {
   .controls.arrow-controls {
-    padding: 0 12px;
+    padding-left: 12px;
+    padding-right: 32px; /* slightly reduced but still balanced */
   }
 }
 
@@ -748,6 +750,8 @@ body.full-map #map {
   .overview-main {
     padding: 10px 8px 16px;
   }
+
+   
 
   #overviewMap {
     height: calc(100vh - 200px);
