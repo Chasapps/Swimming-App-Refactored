@@ -597,14 +597,14 @@ body.full-map #map {
   margin-bottom: 4px;
 }
 
-/* Arrow row under the pool name */
 .controls.arrow-controls {
   display: flex;
-  justify-content: space-between;  /* one circle on each side */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 4px 0 8px;
-  padding: 0 20px;                 /* equal distance from left/right edges */
+  padding-left: 20px;   /* left arrow spacing */
+  padding-right: 36px;  /* increase this until it looks perfect */
 }
 
 /* Circular arrow buttons */
