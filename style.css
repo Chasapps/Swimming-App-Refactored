@@ -603,8 +603,8 @@ body.full-map #map {
   align-items: center;
   width: 100%;
   margin: 4px 0 8px;
-  padding-left: 20px;   /* left arrow spacing */
-  padding-right: 46px;  /* increase this until it looks perfect */
+  padding-left: 32px;   /* left arrow spacing */
+  padding-right: 32px;  /* increase this until it looks perfect */
 }
 
 /* Circular arrow buttons */
@@ -644,8 +644,8 @@ body.full-map #map {
 }
 @media (max-width: 700px) {
   .controls.arrow-controls {
-    padding-left: 12px;
-    padding-right: 46px; /* slightly reduced but still balanced */
+    padding-left: 20px;
+    padding-right: 20px; /* slightly reduced but still balanced */
   }
 }
 
