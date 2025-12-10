@@ -645,7 +645,7 @@ body.full-map #map {
 @media (max-width: 700px) {
   .controls.arrow-controls {
     padding-left: 12px;
-    padding-right: 32px; /* slightly reduced but still balanced */
+    padding-right: 46px; /* slightly reduced but still balanced */
   }
 }
 
