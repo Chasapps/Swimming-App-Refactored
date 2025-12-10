@@ -266,7 +266,7 @@ main{
 
 .pool-name{
   font-weight:700;
-  font-size:14px;
+  font-size:16px;
 }
 
 .coords{
@@ -726,8 +726,8 @@ body.full-map #map{
 }
 
 .arrow-btn {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
