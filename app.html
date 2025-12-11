@@ -64,12 +64,15 @@
             <button id="btnUp" class="pill arrow-pill" aria-label="Next pool">▲</button>
         </div>
 
-        <div id="map" class="pool-map"></div>
+       <div class="map-overlay-wrapper">
+          <div id="map" class="pool-map"></div>
 
-        <div class="map-actions">
-          <button id="openNativeMap" class="pill ghost small">🧭 Open in Maps</button>
-          <button id="mapToggle" class="map-toggle pill" aria-pressed="false">🗺️ Full Map</button>
-        </div>
+          <div class="map-actions map-actions-overlay">
+            <button class="open-maps-btn">Open in Maps</button>
+            <button class="full-map-btn">Full Map</button>
+          </div>
+</div>
+
       </div>
 
     
