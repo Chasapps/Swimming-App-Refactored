@@ -762,3 +762,40 @@ body.full-map #map {
    }
                    
 }
+/* ================================
+   MAP ACTION BUTTONS – OVERLAY
+   ================================ */
+
+.map-overlay-wrapper {
+  position: relative;
+}
+
+/* Floating panel on map */
+.map-actions-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;   /* keeps clear of Leaflet + / - buttons */
+  z-index: 600;
+
+  display: flex;
+  gap: 8px;
+
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px 12px;
+  border-radius: 14px;
+
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Style buttons inside overlay */
+.map-actions-overlay button {
+  border: none;
+  background: var(--pill-bg, #F5F2EA);
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  color: var(--ink, #1F2732);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
